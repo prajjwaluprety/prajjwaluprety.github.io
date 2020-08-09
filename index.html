@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link href="https://fonts.googleapis.com/css2?family=Nunito&family=Rubik:wght@500&display=swap" rel="stylesheet"> <meta charset="utf-8"/>
+<meta charset="utf-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Prajjwal</title>
 <style id="applicationStylesheet" type="text/css">
 :root {
-	--web-view-ids: DarkRed,MidnightGreen,RichBlack,Mango,GhostWhite;
+	--web-view-ids: DarkRed,DarkRed,MidnightGreen,MidnightGreen,RichBlack,RichBlack,Mango,Mango,GhostWhite,GhostWhite;
 	--web-view-name: GhostWhite;
 	--web-view-id: GhostWhite;
 	--web-scale-to-fit: true;
@@ -27,12 +27,16 @@
 	--web-show-navigation-controls: false;
 	--web-enable-deep-linking: true;
 	--web-is-overlay: false;
-	--web-page-font: Rubik, Nunito;
 }
 #DarkRed,
+#DarkRed,
+#MidnightGreen,
 #MidnightGreen,
 #RichBlack,
+#RichBlack,
 #Mango,
+#Mango,
+#GhostWhite,
 #GhostWhite {
 	display: none;
 }
@@ -92,6 +96,7 @@
 		color: rgba(244,244,249,1);
 	}
 	#How_is_it_going {
+		opacity: 0;
 		left: 522px;
 		top: 588px;
 		position: absolute;
@@ -128,7 +133,7 @@
 		--web-action-target: RichBlack;
 		cursor: pointer;
 	}
-	#Red_Down_o {
+	#Red_Down_t {
 		position: absolute;
 		width: 50px;
 		height: 50px;
@@ -148,7 +153,7 @@
 		top: 802px;
 		overflow: visible;
 	}
-	#Red_Down_q {
+	#Red_Down_v {
 		position: absolute;
 		width: 50px;
 		height: 50px;
@@ -160,7 +165,7 @@
 		--web-action-target: Mango;
 		cursor: pointer;
 	}
-	#Red_Down_r {
+	#Red_Down_w {
 		position: absolute;
 		width: 50px;
 		height: 50px;
@@ -231,6 +236,199 @@
 }
 @media (min-width: 0px) {
 	.mediaViewInfo {
+		--web-view-name: DarkRed;
+		--web-view-id: DarkRed;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: width;
+		--web-scale-on-resize: true;
+		--web-application: true;
+		--web-enable-deep-linking: true;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#DarkRed {
+		position: absolute;
+		display: block;
+		width: 1920px;
+		height: 1080px;
+		background-color: rgba(141,8,1,1);
+		overflow: hidden;
+		--web-view-name: DarkRed;
+		--web-view-id: DarkRed;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: width;
+		--web-scale-on-resize: true;
+		--web-application: true;
+		--web-enable-deep-linking: true;
+	}
+	@keyframes fadein {
+	
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	
+	}
+	#Hey_there_ {
+		left: 359px;
+		top: 304px;
+		position: absolute;
+		overflow: visible;
+		width: 1204px;
+		height: 214px;
+		text-align: center;
+		font-family: Rubik;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 150px;
+		color: rgba(244,244,249,1);
+	}
+	#How_is_it_going_ {
+		left: 522px;
+		top: 588px;
+		position: absolute;
+		overflow: visible;
+		width: 878px;
+		height: 89px;
+		text-align: center;
+		font-family: Nunito;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 60px;
+		color: rgba(244,244,249,1);
+	}
+	#Rectangle_21_ {
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_21_ {
+		position: fixed;
+		overflow: visible;
+		width: 1920px;
+		height: 100px;
+		left: 0px;
+		top: 0px;
+	}
+	#Red_Down_ {
+		position: absolute;
+		width: 50px;
+		height: 50px;
+		left: 765px;
+		top: 823px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: view;
+		--web-action-target: RichBlack;
+		cursor: pointer;
+	}
+	#Red_Down_ba {
+		position: absolute;
+		width: 50px;
+		height: 50px;
+		left: 850px;
+		top: 823px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: view;
+		--web-action-target: MidnightGreen;
+		cursor: pointer;
+	}
+	#Red_Up_ {
+		position: absolute;
+		width: 90px;
+		height: 91px;
+		left: 915px;
+		top: 802px;
+		overflow: visible;
+	}
+	#Red_Down_bb {
+		position: absolute;
+		width: 50px;
+		height: 50px;
+		left: 1020px;
+		top: 823px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: view;
+		--web-action-target: Mango;
+		cursor: pointer;
+	}
+	#Red_Down_bc {
+		position: absolute;
+		width: 50px;
+		height: 50px;
+		left: 1105px;
+		top: 823px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: view;
+		--web-action-target: GhostWhite;
+		cursor: pointer;
+	}
+	#Batho_Koshero_bb {
+		left: 876px;
+		top: 36px;
+		position: fixed;
+		overflow: visible;
+		width: 169px;
+		height: 28px;
+		text-align: center;
+		font-family: Nunito;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(141,8,1,1);
+	}
+	#About_bc {
+		left: 1060px;
+		top: 36px;
+		position: fixed;
+		overflow: visible;
+		width: 169px;
+		height: 28px;
+		text-align: center;
+		font-family: Nunito;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(141,8,1,1);
+	}
+	#Projects_bd {
+		left: 692px;
+		top: 36px;
+		position: fixed;
+		overflow: visible;
+		width: 169px;
+		height: 28px;
+		text-align: center;
+		font-family: Nunito;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(141,8,1,1);
+	}
+	#website_under_construction_be {
+		left: 29px;
+		top: 40px;
+		position: fixed;
+		overflow: visible;
+		width: 266px;
+		height: 20px;
+		text-align: left;
+		font-family: Nunito;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 15px;
+		color: rgba(105,101,101,0.412);
+	}
+}
+@media (min-width: 0px) {
+	.mediaViewInfo {
 		--web-view-name: MidnightGreen;
 		--web-view-id: MidnightGreen;
 		--web-scale-on-resize: true;
@@ -266,7 +464,7 @@
 		}
 	
 	}
-	#Hey_there_y {
+	#Hey_there_bh {
 		left: 359px;
 		top: 304px;
 		position: absolute;
@@ -280,10 +478,10 @@
 		font-size: 150px;
 		color: rgba(244,244,249,1);
 	}
-	#Rectangle_21_z {
+	#Rectangle_21_bi {
 		fill: rgba(255,255,255,1);
 	}
-	.Rectangle_21_z {
+	.Rectangle_21_bi {
 		position: fixed;
 		overflow: visible;
 		width: 1920px;
@@ -303,7 +501,7 @@
 		--web-action-target: GhostWhite;
 		cursor: pointer;
 	}
-	#Green_Down_ {
+	#Green_Down_bk {
 		position: absolute;
 		width: 50px;
 		height: 50px;
@@ -315,7 +513,7 @@
 		--web-action-target: Mango;
 		cursor: pointer;
 	}
-	#Green_Down_ba {
+	#Green_Down_bl {
 		position: absolute;
 		width: 50px;
 		height: 50px;
@@ -327,7 +525,7 @@
 		--web-action-target: DarkRed;
 		cursor: pointer;
 	}
-	#Green_Down_bb {
+	#Green_Down_bm {
 		position: absolute;
 		width: 50px;
 		height: 50px;
@@ -347,7 +545,7 @@
 		top: 802px;
 		overflow: visible;
 	}
-	#Batho_Koshero_ {
+	#Batho_Koshero_bo {
 		left: 876px;
 		top: 36px;
 		position: fixed;
@@ -361,7 +559,7 @@
 		font-size: 20px;
 		color: rgba(15,76,92,1);
 	}
-	#About_ {
+	#About_bp {
 		left: 1060px;
 		top: 36px;
 		position: fixed;
@@ -375,7 +573,7 @@
 		font-size: 20px;
 		color: rgba(15,76,92,1);
 	}
-	#Projects_ {
+	#Projects_bq {
 		left: 692px;
 		top: 36px;
 		position: fixed;
@@ -389,7 +587,7 @@
 		font-size: 20px;
 		color: rgba(15,76,92,1);
 	}
-	#website_under_construction_ {
+	#website_under_construction_br {
 		left: 29px;
 		top: 40px;
 		position: fixed;
@@ -404,6 +602,196 @@
 		color: rgba(105,101,101,0.412);
 	}
 	#You_okay {
+		opacity: 0;
+		left: 522px;
+		top: 588px;
+		position: absolute;
+		overflow: visible;
+		width: 878px;
+		height: 89px;
+		text-align: center;
+		font-family: Nunito;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 60px;
+		color: rgba(244,244,249,1);
+	}
+}
+@media (min-width: 0px) {
+	.mediaViewInfo {
+		--web-view-name: MidnightGreen;
+		--web-view-id: MidnightGreen;
+		--web-scale-on-resize: true;
+		--web-application: true;
+		--web-enable-deep-linking: true;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#MidnightGreen {
+		position: absolute;
+		display: block;
+		width: 1920px;
+		height: 1080px;
+		background-color: rgba(15,76,92,1);
+		overflow: hidden;
+		--web-view-name: MidnightGreen;
+		--web-view-id: MidnightGreen;
+		--web-scale-on-resize: true;
+		--web-application: true;
+		--web-enable-deep-linking: true;
+	}
+	@keyframes fadein {
+	
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	
+	}
+	#Hey_there_bv {
+		left: 359px;
+		top: 304px;
+		position: absolute;
+		overflow: visible;
+		width: 1204px;
+		height: 214px;
+		text-align: center;
+		font-family: Rubik;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 150px;
+		color: rgba(244,244,249,1);
+	}
+	#Rectangle_21_bw {
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_21_bw {
+		position: fixed;
+		overflow: visible;
+		width: 1920px;
+		height: 100px;
+		left: 0px;
+		top: 0px;
+	}
+	#Green_Down_bx {
+		position: absolute;
+		width: 50px;
+		height: 50px;
+		left: 1105px;
+		top: 823px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: view;
+		--web-action-target: GhostWhite;
+		cursor: pointer;
+	}
+	#Green_Down_by {
+		position: absolute;
+		width: 50px;
+		height: 50px;
+		left: 1020px;
+		top: 823px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: view;
+		--web-action-target: Mango;
+		cursor: pointer;
+	}
+	#Green_Down_bz {
+		position: absolute;
+		width: 50px;
+		height: 50px;
+		left: 935px;
+		top: 823px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: view;
+		--web-action-target: DarkRed;
+		cursor: pointer;
+	}
+	#Green_Down_b {
+		position: absolute;
+		width: 50px;
+		height: 50px;
+		left: 765px;
+		top: 823px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: view;
+		--web-action-target: RichBlack;
+		cursor: pointer;
+	}
+	#Green_Up_b {
+		position: absolute;
+		width: 90px;
+		height: 91px;
+		left: 830px;
+		top: 802px;
+		overflow: visible;
+	}
+	#Batho_Koshero_b {
+		left: 876px;
+		top: 36px;
+		position: fixed;
+		overflow: visible;
+		width: 169px;
+		height: 28px;
+		text-align: center;
+		font-family: Nunito;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(15,76,92,1);
+	}
+	#About_b {
+		left: 1060px;
+		top: 36px;
+		position: fixed;
+		overflow: visible;
+		width: 169px;
+		height: 28px;
+		text-align: center;
+		font-family: Nunito;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(15,76,92,1);
+	}
+	#Projects_b {
+		left: 692px;
+		top: 36px;
+		position: fixed;
+		overflow: visible;
+		width: 169px;
+		height: 28px;
+		text-align: center;
+		font-family: Nunito;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(15,76,92,1);
+	}
+	#website_under_construction_b {
+		left: 29px;
+		top: 40px;
+		position: fixed;
+		overflow: visible;
+		width: 266px;
+		height: 20px;
+		text-align: left;
+		font-family: Nunito;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 15px;
+		color: rgba(105,101,101,0.412);
+	}
+	#You_okay_b {
 		left: 522px;
 		top: 588px;
 		position: absolute;
@@ -455,7 +843,7 @@
 		}
 	
 	}
-	#Hey_there_bc {
+	#Hey_there_b {
 		left: 359px;
 		top: 304px;
 		position: absolute;
@@ -470,6 +858,7 @@
 		color: rgba(244,244,249,1);
 	}
 	#___Whats_that_behind_you__ {
+		opacity: 0;
 		left: 456px;
 		top: 588px;
 		position: absolute;
@@ -483,10 +872,10 @@
 		font-size: 60px;
 		color: rgba(244,244,249,1);
 	}
-	#Rectangle_21_be {
+	#Rectangle_21_cb {
 		fill: rgba(255,255,255,1);
 	}
-	.Rectangle_21_be {
+	.Rectangle_21_cb {
 		position: fixed;
 		overflow: visible;
 		width: 1920px;
@@ -506,7 +895,7 @@
 		--web-action-target: MidnightGreen;
 		cursor: pointer;
 	}
-	#Blue_down_bg {
+	#Blue_down_cd {
 		position: absolute;
 		width: 50px;
 		height: 50px;
@@ -518,7 +907,7 @@
 		--web-action-target: DarkRed;
 		cursor: pointer;
 	}
-	#Blue_down_bh {
+	#Blue_down_ce {
 		position: absolute;
 		width: 50px;
 		height: 50px;
@@ -530,7 +919,7 @@
 		--web-action-target: Mango;
 		cursor: pointer;
 	}
-	#Blue_down_bi {
+	#Blue_down_cf {
 		position: absolute;
 		width: 50px;
 		height: 50px;
@@ -550,7 +939,7 @@
 		top: 802px;
 		overflow: visible;
 	}
-	#Batho_Koshero_bk {
+	#Batho_Koshero_ch {
 		left: 876px;
 		top: 36px;
 		position: fixed;
@@ -564,7 +953,7 @@
 		font-size: 20px;
 		color: rgba(0,20,39,1);
 	}
-	#About_bl {
+	#About_ci {
 		left: 1060px;
 		top: 36px;
 		position: fixed;
@@ -578,7 +967,7 @@
 		font-size: 20px;
 		color: rgba(0,20,39,1);
 	}
-	#Projects_bm {
+	#Projects_cj {
 		left: 692px;
 		top: 36px;
 		position: fixed;
@@ -592,7 +981,196 @@
 		font-size: 20px;
 		color: rgba(0,20,39,1);
 	}
-	#website_under_construction_bn {
+	#website_under_construction_ck {
+		left: 29px;
+		top: 40px;
+		position: fixed;
+		overflow: visible;
+		width: 266px;
+		height: 20px;
+		text-align: left;
+		font-family: Nunito;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 15px;
+		color: rgba(105,101,101,0.412);
+	}
+}
+@media (min-width: 0px) {
+	.mediaViewInfo {
+		--web-view-name: RichBlack;
+		--web-view-id: RichBlack;
+		--web-scale-on-resize: true;
+		--web-application: true;
+		--web-enable-deep-linking: true;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#RichBlack {
+		position: absolute;
+		display: block;
+		width: 1920px;
+		height: 1080px;
+		background-color: rgba(0,20,39,1);
+		overflow: hidden;
+		--web-view-name: RichBlack;
+		--web-view-id: RichBlack;
+		--web-scale-on-resize: true;
+		--web-application: true;
+		--web-enable-deep-linking: true;
+	}
+	@keyframes fadein {
+	
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	
+	}
+	#Hey_there_cn {
+		left: 359px;
+		top: 304px;
+		position: absolute;
+		overflow: visible;
+		width: 1204px;
+		height: 214px;
+		text-align: center;
+		font-family: Rubik;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 150px;
+		color: rgba(244,244,249,1);
+	}
+	#___Whats_that_behind_you___co {
+		left: 456px;
+		top: 588px;
+		position: absolute;
+		overflow: visible;
+		width: 1010px;
+		height: 89px;
+		text-align: center;
+		font-family: Nunito;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 60px;
+		color: rgba(244,244,249,1);
+	}
+	#Rectangle_21_cp {
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_21_cp {
+		position: fixed;
+		overflow: visible;
+		width: 1920px;
+		height: 100px;
+		left: 0px;
+		top: 0px;
+	}
+	#Blue_down_cq {
+		position: absolute;
+		width: 50px;
+		height: 50px;
+		left: 850px;
+		top: 823px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: view;
+		--web-action-target: MidnightGreen;
+		cursor: pointer;
+	}
+	#Blue_down_cr {
+		position: absolute;
+		width: 50px;
+		height: 50px;
+		left: 935px;
+		top: 823px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: view;
+		--web-action-target: DarkRed;
+		cursor: pointer;
+	}
+	#Blue_down_cs {
+		position: absolute;
+		width: 50px;
+		height: 50px;
+		left: 1020px;
+		top: 823px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: view;
+		--web-action-target: Mango;
+		cursor: pointer;
+	}
+	#Blue_down_ct {
+		position: absolute;
+		width: 50px;
+		height: 50px;
+		left: 1105px;
+		top: 823px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: view;
+		--web-action-target: GhostWhite;
+		cursor: pointer;
+	}
+	#Blue_Up_cu {
+		position: absolute;
+		width: 90px;
+		height: 91px;
+		left: 745px;
+		top: 802px;
+		overflow: visible;
+	}
+	#Batho_Koshero_cv {
+		left: 876px;
+		top: 36px;
+		position: fixed;
+		overflow: visible;
+		width: 169px;
+		height: 28px;
+		text-align: center;
+		font-family: Nunito;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,20,39,1);
+	}
+	#About_cw {
+		left: 1060px;
+		top: 36px;
+		position: fixed;
+		overflow: visible;
+		width: 169px;
+		height: 28px;
+		text-align: center;
+		font-family: Nunito;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,20,39,1);
+	}
+	#Projects_cx {
+		left: 692px;
+		top: 36px;
+		position: fixed;
+		overflow: visible;
+		width: 169px;
+		height: 28px;
+		text-align: center;
+		font-family: Nunito;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,20,39,1);
+	}
+	#website_under_construction_cy {
 		left: 29px;
 		top: 40px;
 		position: fixed;
@@ -644,7 +1222,7 @@
 		}
 	
 	}
-	#Hey_there_bq {
+	#Hey_there_c {
 		left: 359px;
 		top: 304px;
 		position: absolute;
@@ -659,6 +1237,7 @@
 		color: rgba(0,20,39,1);
 	}
 	#Amazing_day_isnt_it {
+		opacity: 0;
 		left: 522px;
 		top: 588px;
 		position: absolute;
@@ -672,10 +1251,10 @@
 		font-size: 60px;
 		color: rgba(0,20,39,1);
 	}
-	#Rectangle_21_bs {
+	#Rectangle_21_c {
 		fill: rgba(255,255,255,1);
 	}
-	.Rectangle_21_bs {
+	.Rectangle_21_c {
 		position: fixed;
 		overflow: visible;
 		width: 1920px;
@@ -695,7 +1274,7 @@
 		--web-action-target: RichBlack;
 		cursor: pointer;
 	}
-	#Yellow_down_bu {
+	#Yellow_down_c {
 		position: absolute;
 		width: 50px;
 		height: 50px;
@@ -707,7 +1286,7 @@
 		--web-action-target: MidnightGreen;
 		cursor: pointer;
 	}
-	#Yellow_down_bv {
+	#Yellow_down_da {
 		position: absolute;
 		width: 50px;
 		height: 50px;
@@ -719,7 +1298,7 @@
 		--web-action-target: DarkRed;
 		cursor: pointer;
 	}
-	#Yellow_down_bw {
+	#Yellow_down_db {
 		position: absolute;
 		width: 50px;
 		height: 50px;
@@ -739,7 +1318,7 @@
 		top: 802px;
 		overflow: visible;
 	}
-	#Batho_Koshero_by {
+	#Batho_Koshero_c {
 		left: 876px;
 		top: 36px;
 		position: fixed;
@@ -753,7 +1332,7 @@
 		font-size: 20px;
 		color: rgba(0,20,39,1);
 	}
-	#About_bz {
+	#About_da {
 		left: 1060px;
 		top: 36px;
 		position: fixed;
@@ -767,7 +1346,7 @@
 		font-size: 20px;
 		color: rgba(0,20,39,1);
 	}
-	#Projects_b {
+	#Projects_db {
 		left: 692px;
 		top: 36px;
 		position: fixed;
@@ -781,7 +1360,390 @@
 		font-size: 20px;
 		color: rgba(0,20,39,1);
 	}
-	#website_under_construction_b {
+	#website_under_construction_dc {
+		left: 29px;
+		top: 40px;
+		position: fixed;
+		overflow: visible;
+		width: 266px;
+		height: 20px;
+		text-align: left;
+		font-family: Nunito;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 15px;
+		color: rgba(105,101,101,0.412);
+	}
+}
+@media (min-width: 0px) {
+	.mediaViewInfo {
+		--web-view-name: Mango;
+		--web-view-id: Mango;
+		--web-scale-on-resize: true;
+		--web-application: true;
+		--web-enable-deep-linking: true;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#Mango {
+		position: absolute;
+		display: block;
+		width: 1920px;
+		height: 1080px;
+		background-color: rgba(255,190,11,1);
+		overflow: hidden;
+		--web-view-name: Mango;
+		--web-view-id: Mango;
+		--web-scale-on-resize: true;
+		--web-application: true;
+		--web-enable-deep-linking: true;
+	}
+	@keyframes fadein {
+	
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	
+	}
+	#Hey_there_df {
+		left: 359px;
+		top: 304px;
+		position: absolute;
+		overflow: visible;
+		width: 1204px;
+		height: 214px;
+		text-align: center;
+		font-family: Rubik;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 150px;
+		color: rgba(0,20,39,1);
+	}
+	#Amazing_day_isnt_it_dg {
+		left: 522px;
+		top: 588px;
+		position: absolute;
+		overflow: visible;
+		width: 878px;
+		height: 89px;
+		text-align: center;
+		font-family: Nunito;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 60px;
+		color: rgba(0,20,39,1);
+	}
+	#Rectangle_21_dh {
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_21_dh {
+		position: fixed;
+		overflow: visible;
+		width: 1920px;
+		height: 100px;
+		left: 0px;
+		top: 0px;
+	}
+	#Yellow_down_di {
+		position: absolute;
+		width: 50px;
+		height: 50px;
+		left: 765px;
+		top: 823px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: view;
+		--web-action-target: RichBlack;
+		cursor: pointer;
+	}
+	#Yellow_down_dj {
+		position: absolute;
+		width: 50px;
+		height: 50px;
+		left: 850px;
+		top: 823px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: view;
+		--web-action-target: MidnightGreen;
+		cursor: pointer;
+	}
+	#Yellow_down_dk {
+		position: absolute;
+		width: 50px;
+		height: 50px;
+		left: 935px;
+		top: 823px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: view;
+		--web-action-target: DarkRed;
+		cursor: pointer;
+	}
+	#Yellow_down_dl {
+		position: absolute;
+		width: 50px;
+		height: 50px;
+		left: 1105px;
+		top: 823px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: view;
+		--web-action-target: GhostWhite;
+		cursor: pointer;
+	}
+	#Yellow_up_dm {
+		position: absolute;
+		width: 90px;
+		height: 91px;
+		left: 1000px;
+		top: 802px;
+		overflow: visible;
+	}
+	#Batho_Koshero_dn {
+		left: 876px;
+		top: 36px;
+		position: fixed;
+		overflow: visible;
+		width: 169px;
+		height: 28px;
+		text-align: center;
+		font-family: Nunito;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,20,39,1);
+	}
+	#About_do {
+		left: 1060px;
+		top: 36px;
+		position: fixed;
+		overflow: visible;
+		width: 169px;
+		height: 28px;
+		text-align: center;
+		font-family: Nunito;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,20,39,1);
+	}
+	#Projects_dp {
+		left: 692px;
+		top: 36px;
+		position: fixed;
+		overflow: visible;
+		width: 169px;
+		height: 28px;
+		text-align: center;
+		font-family: Nunito;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,20,39,1);
+	}
+	#website_under_construction_dq {
+		left: 29px;
+		top: 40px;
+		position: fixed;
+		overflow: visible;
+		width: 266px;
+		height: 20px;
+		text-align: left;
+		font-family: Nunito;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 15px;
+		color: rgba(105,101,101,0.412);
+	}
+}
+@media (min-width: 0px) {
+	.mediaViewInfo {
+		--web-view-name: GhostWhite;
+		--web-view-id: GhostWhite;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: width;
+		--web-scale-on-resize: true;
+		--web-application: true;
+		--web-enable-deep-linking: true;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#GhostWhite {
+		position: absolute;
+		display: block;
+		width: 1920px;
+		height: 1080px;
+		background-color: rgba(244,244,249,1);
+		overflow: hidden;
+		--web-view-name: GhostWhite;
+		--web-view-id: GhostWhite;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: width;
+		--web-scale-on-resize: true;
+		--web-application: true;
+		--web-enable-deep-linking: true;
+	}
+	@keyframes fadein {
+	
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	
+	}
+	#Hey_there_dt {
+		left: 359px;
+		top: 304px;
+		position: absolute;
+		overflow: visible;
+		width: 1204px;
+		height: 214px;
+		text-align: center;
+		font-family: Rubik;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 150px;
+		color: rgba(0,20,39,1);
+	}
+	#Wanna_talk {
+		opacity: 0;
+		left: 522px;
+		top: 588px;
+		position: absolute;
+		overflow: visible;
+		width: 878px;
+		height: 89px;
+		text-align: center;
+		font-family: Nunito;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 60px;
+		color: rgba(0,20,39,1);
+	}
+	#Rectangle_21_dv {
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_21_dv {
+		position: fixed;
+		overflow: visible;
+		width: 1920px;
+		height: 100px;
+		left: 0px;
+		top: 0px;
+	}
+	#White_Down {
+		position: absolute;
+		width: 50px;
+		height: 50px;
+		left: 765px;
+		top: 823px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: view;
+		--web-action-target: RichBlack;
+		cursor: pointer;
+	}
+	#White_Down_dx {
+		position: absolute;
+		width: 50px;
+		height: 50px;
+		left: 850px;
+		top: 823px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: view;
+		--web-action-target: MidnightGreen;
+		cursor: pointer;
+	}
+	#White_Down_dy {
+		position: absolute;
+		width: 50px;
+		height: 50px;
+		left: 935px;
+		top: 823px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: view;
+		--web-action-target: DarkRed;
+		cursor: pointer;
+	}
+	#White_Down_dz {
+		position: absolute;
+		width: 50px;
+		height: 50px;
+		left: 1020px;
+		top: 823px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: view;
+		--web-action-target: Mango;
+		cursor: pointer;
+	}
+	#White_Up {
+		position: absolute;
+		width: 90px;
+		height: 91px;
+		left: 1085px;
+		top: 802px;
+		overflow: visible;
+	}
+	#Batho_Koshero_d {
+		left: 876px;
+		top: 36px;
+		position: fixed;
+		overflow: visible;
+		width: 169px;
+		height: 28px;
+		text-align: center;
+		font-family: Nunito;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,20,39,1);
+	}
+	#About_d {
+		left: 1060px;
+		top: 36px;
+		position: fixed;
+		overflow: visible;
+		width: 169px;
+		height: 28px;
+		text-align: center;
+		font-family: Nunito;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,20,39,1);
+	}
+	#Projects_d {
+		left: 692px;
+		top: 36px;
+		position: fixed;
+		overflow: visible;
+		width: 169px;
+		height: 28px;
+		text-align: center;
+		font-family: Nunito;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,20,39,1);
+	}
+	#website_under_construction_d {
 		left: 29px;
 		top: 40px;
 		position: fixed;
@@ -840,7 +1802,7 @@
 		}
 	
 	}
-	#Hey_there_b {
+	#Hey_there_d {
 		left: 359px;
 		top: 304px;
 		position: absolute;
@@ -854,7 +1816,7 @@
 		font-size: 150px;
 		color: rgba(0,20,39,1);
 	}
-	#Wanna_talk {
+	#Wanna_talk_d {
 		left: 522px;
 		top: 588px;
 		position: absolute;
@@ -868,10 +1830,10 @@
 		font-size: 60px;
 		color: rgba(0,20,39,1);
 	}
-	#Rectangle_21_b {
+	#Rectangle_21_d {
 		fill: rgba(255,255,255,1);
 	}
-	.Rectangle_21_b {
+	.Rectangle_21_d {
 		position: fixed;
 		overflow: visible;
 		width: 1920px;
@@ -879,7 +1841,7 @@
 		left: 0px;
 		top: 0px;
 	}
-	#White_Down {
+	#White_Down_ea {
 		position: absolute;
 		width: 50px;
 		height: 50px;
@@ -891,7 +1853,7 @@
 		--web-action-target: RichBlack;
 		cursor: pointer;
 	}
-	#White_Down_b {
+	#White_Down_eb {
 		position: absolute;
 		width: 50px;
 		height: 50px;
@@ -903,7 +1865,7 @@
 		--web-action-target: MidnightGreen;
 		cursor: pointer;
 	}
-	#White_Down_ca {
+	#White_Down_ec {
 		position: absolute;
 		width: 50px;
 		height: 50px;
@@ -915,7 +1877,7 @@
 		--web-action-target: DarkRed;
 		cursor: pointer;
 	}
-	#White_Down_cb {
+	#White_Down_ed {
 		position: absolute;
 		width: 50px;
 		height: 50px;
@@ -927,7 +1889,7 @@
 		--web-action-target: Mango;
 		cursor: pointer;
 	}
-	#White_Up {
+	#White_Up_ee {
 		position: absolute;
 		width: 90px;
 		height: 91px;
@@ -935,7 +1897,7 @@
 		top: 802px;
 		overflow: visible;
 	}
-	#Batho_Koshero_cc {
+	#Batho_Koshero_ef {
 		left: 876px;
 		top: 36px;
 		position: fixed;
@@ -949,7 +1911,7 @@
 		font-size: 20px;
 		color: rgba(0,20,39,1);
 	}
-	#About_cd {
+	#About_eg {
 		left: 1060px;
 		top: 36px;
 		position: fixed;
@@ -963,7 +1925,7 @@
 		font-size: 20px;
 		color: rgba(0,20,39,1);
 	}
-	#Projects_ce {
+	#Projects_eh {
 		left: 692px;
 		top: 36px;
 		position: fixed;
@@ -977,7 +1939,7 @@
 		font-size: 20px;
 		color: rgba(0,20,39,1);
 	}
-	#website_under_construction_cf {
+	#website_under_construction_ei {
 		left: 29px;
 		top: 40px;
 		position: fixed;
@@ -3835,10 +4797,10 @@ window.application = new Application();
 		</rect>
 	</svg>
 	<img onclick="application.goToTargetView(event)" id="Red_Down" src="Red_Down.png" srcset="Red_Down.png 1x">
-	<img onclick="application.goToTargetView(event)" id="Red_Down_o" src="Red_Down_o.png" srcset="Red_Down_o.png 1x">
+	<img onclick="application.goToTargetView(event)" id="Red_Down_t" src="Red_Down_t.png" srcset="Red_Down_t.png 1x">
 	<img id="Red_Up" src="Red_Up.png" srcset="Red_Up.png 1x">
-	<img onclick="application.goToTargetView(event)" id="Red_Down_q" src="Red_Down_q.png" srcset="Red_Down_q.png 1x">
-	<img onclick="application.goToTargetView(event)" id="Red_Down_r" src="Red_Down_r.png" srcset="Red_Down_r.png 1x">
+	<img onclick="application.goToTargetView(event)" id="Red_Down_v" src="Red_Down_v.png" srcset="Red_Down_v.png 1x">
+	<img onclick="application.goToTargetView(event)" id="Red_Down_w" src="Red_Down_w.png" srcset="Red_Down_w.png 1x">
 	<div id="Batho_Koshero">
 		<span>Batho Koshero</span>
 	</div>
@@ -3852,84 +4814,81 @@ window.application = new Application();
 		<span>**website under construction</span>
 	</div>
 </div>
-<div id="MidnightGreen">
-	<div id="Hey_there_y">
+<div id="DarkRed">
+	<div id="Hey_there_">
 		<span>Hey there!</span>
 	</div>
-	<svg class="Rectangle_21_z">
-		<rect id="Rectangle_21_z" rx="0" ry="0" x="0" y="0" width="1920" height="100">
+	<div id="How_is_it_going_">
+		<span>How is it going?</span>
+	</div>
+	<svg class="Rectangle_21_">
+		<rect id="Rectangle_21_" rx="0" ry="0" x="0" y="0" width="1920" height="100">
+		</rect>
+	</svg>
+	<img onclick="application.goToTargetView(event)" id="Red_Down_" src="Red_Down_.png" srcset="Red_Down_.png 1x">
+	<img onclick="application.goToTargetView(event)" id="Red_Down_ba" src="Red_Down_ba.png" srcset="Red_Down_ba.png 1x">
+	<img id="Red_Up_" src="Red_Up_.png" srcset="Red_Up_.png 1x">
+	<img onclick="application.goToTargetView(event)" id="Red_Down_bb" src="Red_Down_bb.png" srcset="Red_Down_bb.png 1x">
+	<img onclick="application.goToTargetView(event)" id="Red_Down_bc" src="Red_Down_bc.png" srcset="Red_Down_bc.png 1x">
+	<div id="Batho_Koshero_bb">
+		<span>Batho Koshero</span>
+	</div>
+	<div id="About_bc">
+		<span>About</span>
+	</div>
+	<div id="Projects_bd">
+		<span>Projects</span>
+	</div>
+	<div id="website_under_construction_be">
+		<span>**website under construction</span>
+	</div>
+</div>
+<div id="MidnightGreen">
+	<div id="Hey_there_bh">
+		<span>Hey there!</span>
+	</div>
+	<svg class="Rectangle_21_bi">
+		<rect id="Rectangle_21_bi" rx="0" ry="0" x="0" y="0" width="1920" height="100">
 		</rect>
 	</svg>
 	<img onclick="application.goToTargetView(event)" id="Green_Down" src="Green_Down.png" srcset="Green_Down.png 1x, Green_Down@2x.png 2x">
-	<img onclick="application.goToTargetView(event)" id="Green_Down_" src="Green_Down_.png" srcset="Green_Down_.png 1x, Green_Down_@2x.png 2x">
-	<img onclick="application.goToTargetView(event)" id="Green_Down_ba" src="Green_Down_ba.png" srcset="Green_Down_ba.png 1x, Green_Down_ba@2x.png 2x">
-	<img onclick="application.goToTargetView(event)" id="Green_Down_bb" src="Green_Down_bb.png" srcset="Green_Down_bb.png 1x, Green_Down_bb@2x.png 2x">
+	<img onclick="application.goToTargetView(event)" id="Green_Down_bk" src="Green_Down_bk.png" srcset="Green_Down_bk.png 1x, Green_Down_bk@2x.png 2x">
+	<img onclick="application.goToTargetView(event)" id="Green_Down_bl" src="Green_Down_bl.png" srcset="Green_Down_bl.png 1x, Green_Down_bl@2x.png 2x">
+	<img onclick="application.goToTargetView(event)" id="Green_Down_bm" src="Green_Down_bm.png" srcset="Green_Down_bm.png 1x, Green_Down_bm@2x.png 2x">
 	<img id="Green_Up" src="Green_Up.png" srcset="Green_Up.png 1x, Green_Up@2x.png 2x">
-	<div id="Batho_Koshero_">
+	<div id="Batho_Koshero_bo">
 		<span>Batho Koshero</span>
 	</div>
-	<div id="About_">
+	<div id="About_bp">
 		<span>About</span>
 	</div>
-	<div id="Projects_">
+	<div id="Projects_bq">
 		<span>Projects</span>
 	</div>
-	<div id="website_under_construction_">
+	<div id="website_under_construction_br">
 		<span>**website under construction</span>
 	</div>
 	<div id="You_okay">
 		<span>You okay?</span>
 	</div>
 </div>
-<div id="RichBlack">
-	<div id="Hey_there_bc">
+<div id="MidnightGreen">
+	<div id="Hey_there_bv">
 		<span>Hey there!</span>
 	</div>
-	<div id="___Whats_that_behind_you__">
-		<span>👻   What’s that behind you?  👻</span>
-	</div>
-	<svg class="Rectangle_21_be">
-		<rect id="Rectangle_21_be" rx="0" ry="0" x="0" y="0" width="1920" height="100">
+	<svg class="Rectangle_21_bw">
+		<rect id="Rectangle_21_bw" rx="0" ry="0" x="0" y="0" width="1920" height="100">
 		</rect>
 	</svg>
-	<img onclick="application.goToTargetView(event)" id="Blue_down" src="Blue_down.png" srcset="Blue_down.png 1x, Blue_down@2x.png 2x">
-	<img onclick="application.goToTargetView(event)" id="Blue_down_bg" src="Blue_down_bg.png" srcset="Blue_down_bg.png 1x, Blue_down_bg@2x.png 2x">
-	<img onclick="application.goToTargetView(event)" id="Blue_down_bh" src="Blue_down_bh.png" srcset="Blue_down_bh.png 1x, Blue_down_bh@2x.png 2x">
-	<img onclick="application.goToTargetView(event)" id="Blue_down_bi" src="Blue_down_bi.png" srcset="Blue_down_bi.png 1x, Blue_down_bi@2x.png 2x">
-	<img id="Blue_Up" src="Blue_Up.png" srcset="Blue_Up.png 1x, Blue_Up@2x.png 2x">
-	<div id="Batho_Koshero_bk">
+	<img onclick="application.goToTargetView(event)" id="Green_Down_bx" src="Green_Down_bx.png" srcset="Green_Down_bx.png 1x, Green_Down_bx@2x.png 2x">
+	<img onclick="application.goToTargetView(event)" id="Green_Down_by" src="Green_Down_by.png" srcset="Green_Down_by.png 1x, Green_Down_by@2x.png 2x">
+	<img onclick="application.goToTargetView(event)" id="Green_Down_bz" src="Green_Down_bz.png" srcset="Green_Down_bz.png 1x, Green_Down_bz@2x.png 2x">
+	<img onclick="application.goToTargetView(event)" id="Green_Down_b" src="Green_Down_b.png" srcset="Green_Down_b.png 1x, Green_Down_b@2x.png 2x">
+	<img id="Green_Up_b" src="Green_Up_b.png" srcset="Green_Up_b.png 1x, Green_Up_b@2x.png 2x">
+	<div id="Batho_Koshero_b">
 		<span>Batho Koshero</span>
 	</div>
-	<div id="About_bl">
-		<span>About</span>
-	</div>
-	<div id="Projects_bm">
-		<span>Projects</span>
-	</div>
-	<div id="website_under_construction_bn">
-		<span>**website under construction</span>
-	</div>
-</div>
-<div id="Mango">
-	<div id="Hey_there_bq">
-		<span>Hey there!</span>
-	</div>
-	<div id="Amazing_day_isnt_it">
-		<span>Amazing day, isn’t it?</span>
-	</div>
-	<svg class="Rectangle_21_bs">
-		<rect id="Rectangle_21_bs" rx="0" ry="0" x="0" y="0" width="1920" height="100">
-		</rect>
-	</svg>
-	<img onclick="application.goToTargetView(event)" id="Yellow_down" src="Yellow_down.png" srcset="Yellow_down.png 1x, Yellow_down@2x.png 2x">
-	<img onclick="application.goToTargetView(event)" id="Yellow_down_bu" src="Yellow_down_bu.png" srcset="Yellow_down_bu.png 1x, Yellow_down_bu@2x.png 2x">
-	<img onclick="application.goToTargetView(event)" id="Yellow_down_bv" src="Yellow_down_bv.png" srcset="Yellow_down_bv.png 1x, Yellow_down_bv@2x.png 2x">
-	<img onclick="application.goToTargetView(event)" id="Yellow_down_bw" src="Yellow_down_bw.png" srcset="Yellow_down_bw.png 1x, Yellow_down_bw@2x.png 2x">
-	<img id="Yellow_up" src="Yellow_up.png" srcset="Yellow_up.png 1x, Yellow_up@2x.png 2x">
-	<div id="Batho_Koshero_by">
-		<span>Batho Koshero</span>
-	</div>
-	<div id="About_bz">
+	<div id="About_b">
 		<span>About</span>
 	</div>
 	<div id="Projects_b">
@@ -3938,33 +4897,181 @@ window.application = new Application();
 	<div id="website_under_construction_b">
 		<span>**website under construction</span>
 	</div>
+	<div id="You_okay_b">
+		<span>You okay?</span>
+	</div>
+</div>
+<div id="RichBlack">
+	<div id="Hey_there_b">
+		<span>Hey there!</span>
+	</div>
+	<div id="___Whats_that_behind_you__">
+		<span>👻   What’s that behind you?  👻</span>
+	</div>
+	<svg class="Rectangle_21_cb">
+		<rect id="Rectangle_21_cb" rx="0" ry="0" x="0" y="0" width="1920" height="100">
+		</rect>
+	</svg>
+	<img onclick="application.goToTargetView(event)" id="Blue_down" src="Blue_down.png" srcset="Blue_down.png 1x, Blue_down@2x.png 2x">
+	<img onclick="application.goToTargetView(event)" id="Blue_down_cd" src="Blue_down_cd.png" srcset="Blue_down_cd.png 1x, Blue_down_cd@2x.png 2x">
+	<img onclick="application.goToTargetView(event)" id="Blue_down_ce" src="Blue_down_ce.png" srcset="Blue_down_ce.png 1x, Blue_down_ce@2x.png 2x">
+	<img onclick="application.goToTargetView(event)" id="Blue_down_cf" src="Blue_down_cf.png" srcset="Blue_down_cf.png 1x, Blue_down_cf@2x.png 2x">
+	<img id="Blue_Up" src="Blue_Up.png" srcset="Blue_Up.png 1x, Blue_Up@2x.png 2x">
+	<div id="Batho_Koshero_ch">
+		<span>Batho Koshero</span>
+	</div>
+	<div id="About_ci">
+		<span>About</span>
+	</div>
+	<div id="Projects_cj">
+		<span>Projects</span>
+	</div>
+	<div id="website_under_construction_ck">
+		<span>**website under construction</span>
+	</div>
+</div>
+<div id="RichBlack">
+	<div id="Hey_there_cn">
+		<span>Hey there!</span>
+	</div>
+	<div id="___Whats_that_behind_you___co">
+		<span>👻   What’s that behind you?  👻</span>
+	</div>
+	<svg class="Rectangle_21_cp">
+		<rect id="Rectangle_21_cp" rx="0" ry="0" x="0" y="0" width="1920" height="100">
+		</rect>
+	</svg>
+	<img onclick="application.goToTargetView(event)" id="Blue_down_cq" src="Blue_down_cq.png" srcset="Blue_down_cq.png 1x, Blue_down_cq@2x.png 2x">
+	<img onclick="application.goToTargetView(event)" id="Blue_down_cr" src="Blue_down_cr.png" srcset="Blue_down_cr.png 1x, Blue_down_cr@2x.png 2x">
+	<img onclick="application.goToTargetView(event)" id="Blue_down_cs" src="Blue_down_cs.png" srcset="Blue_down_cs.png 1x, Blue_down_cs@2x.png 2x">
+	<img onclick="application.goToTargetView(event)" id="Blue_down_ct" src="Blue_down_ct.png" srcset="Blue_down_ct.png 1x, Blue_down_ct@2x.png 2x">
+	<img id="Blue_Up_cu" src="Blue_Up_cu.png" srcset="Blue_Up_cu.png 1x, Blue_Up_cu@2x.png 2x">
+	<div id="Batho_Koshero_cv">
+		<span>Batho Koshero</span>
+	</div>
+	<div id="About_cw">
+		<span>About</span>
+	</div>
+	<div id="Projects_cx">
+		<span>Projects</span>
+	</div>
+	<div id="website_under_construction_cy">
+		<span>**website under construction</span>
+	</div>
+</div>
+<div id="Mango">
+	<div id="Hey_there_c">
+		<span>Hey there!</span>
+	</div>
+	<div id="Amazing_day_isnt_it">
+		<span>Amazing day, isn’t it?</span>
+	</div>
+	<svg class="Rectangle_21_c">
+		<rect id="Rectangle_21_c" rx="0" ry="0" x="0" y="0" width="1920" height="100">
+		</rect>
+	</svg>
+	<img onclick="application.goToTargetView(event)" id="Yellow_down" src="Yellow_down.png" srcset="Yellow_down.png 1x, Yellow_down@2x.png 2x">
+	<img onclick="application.goToTargetView(event)" id="Yellow_down_c" src="Yellow_down_c.png" srcset="Yellow_down_c.png 1x, Yellow_down_c@2x.png 2x">
+	<img onclick="application.goToTargetView(event)" id="Yellow_down_da" src="Yellow_down_da.png" srcset="Yellow_down_da.png 1x, Yellow_down_da@2x.png 2x">
+	<img onclick="application.goToTargetView(event)" id="Yellow_down_db" src="Yellow_down_db.png" srcset="Yellow_down_db.png 1x, Yellow_down_db@2x.png 2x">
+	<img id="Yellow_up" src="Yellow_up.png" srcset="Yellow_up.png 1x, Yellow_up@2x.png 2x">
+	<div id="Batho_Koshero_c">
+		<span>Batho Koshero</span>
+	</div>
+	<div id="About_da">
+		<span>About</span>
+	</div>
+	<div id="Projects_db">
+		<span>Projects</span>
+	</div>
+	<div id="website_under_construction_dc">
+		<span>**website under construction</span>
+	</div>
+</div>
+<div id="Mango">
+	<div id="Hey_there_df">
+		<span>Hey there!</span>
+	</div>
+	<div id="Amazing_day_isnt_it_dg">
+		<span>Amazing day, isn’t it?</span>
+	</div>
+	<svg class="Rectangle_21_dh">
+		<rect id="Rectangle_21_dh" rx="0" ry="0" x="0" y="0" width="1920" height="100">
+		</rect>
+	</svg>
+	<img onclick="application.goToTargetView(event)" id="Yellow_down_di" src="Yellow_down_di.png" srcset="Yellow_down_di.png 1x, Yellow_down_di@2x.png 2x">
+	<img onclick="application.goToTargetView(event)" id="Yellow_down_dj" src="Yellow_down_dj.png" srcset="Yellow_down_dj.png 1x, Yellow_down_dj@2x.png 2x">
+	<img onclick="application.goToTargetView(event)" id="Yellow_down_dk" src="Yellow_down_dk.png" srcset="Yellow_down_dk.png 1x, Yellow_down_dk@2x.png 2x">
+	<img onclick="application.goToTargetView(event)" id="Yellow_down_dl" src="Yellow_down_dl.png" srcset="Yellow_down_dl.png 1x, Yellow_down_dl@2x.png 2x">
+	<img id="Yellow_up_dm" src="Yellow_up_dm.png" srcset="Yellow_up_dm.png 1x, Yellow_up_dm@2x.png 2x">
+	<div id="Batho_Koshero_dn">
+		<span>Batho Koshero</span>
+	</div>
+	<div id="About_do">
+		<span>About</span>
+	</div>
+	<div id="Projects_dp">
+		<span>Projects</span>
+	</div>
+	<div id="website_under_construction_dq">
+		<span>**website under construction</span>
+	</div>
 </div>
 <div id="GhostWhite">
-	<div id="Hey_there_b">
+	<div id="Hey_there_dt">
 		<span>Hey there!</span>
 	</div>
 	<div id="Wanna_talk">
 		<span>Wanna talk?</span>
 	</div>
-	<svg class="Rectangle_21_b">
-		<rect id="Rectangle_21_b" rx="0" ry="0" x="0" y="0" width="1920" height="100">
+	<svg class="Rectangle_21_dv">
+		<rect id="Rectangle_21_dv" rx="0" ry="0" x="0" y="0" width="1920" height="100">
 		</rect>
 	</svg>
 	<img onclick="application.goToTargetView(event)" id="White_Down" src="White_Down.png" srcset="White_Down.png 1x">
-	<img onclick="application.goToTargetView(event)" id="White_Down_b" src="White_Down_b.png" srcset="White_Down_b.png 1x">
-	<img onclick="application.goToTargetView(event)" id="White_Down_ca" src="White_Down_ca.png" srcset="White_Down_ca.png 1x">
-	<img onclick="application.goToTargetView(event)" id="White_Down_cb" src="White_Down_cb.png" srcset="White_Down_cb.png 1x">
+	<img onclick="application.goToTargetView(event)" id="White_Down_dx" src="White_Down_dx.png" srcset="White_Down_dx.png 1x">
+	<img onclick="application.goToTargetView(event)" id="White_Down_dy" src="White_Down_dy.png" srcset="White_Down_dy.png 1x">
+	<img onclick="application.goToTargetView(event)" id="White_Down_dz" src="White_Down_dz.png" srcset="White_Down_dz.png 1x">
 	<img id="White_Up" src="White_Up.png" srcset="White_Up.png 1x">
-	<div id="Batho_Koshero_cc">
+	<div id="Batho_Koshero_d">
 		<span>Batho Koshero</span>
 	</div>
-	<div id="About_cd">
+	<div id="About_d">
 		<span>About</span>
 	</div>
-	<div id="Projects_ce">
+	<div id="Projects_d">
 		<span>Projects</span>
 	</div>
-	<div id="website_under_construction_cf">
+	<div id="website_under_construction_d">
+		<span>**website under construction</span>
+	</div>
+</div>
+<div id="GhostWhite">
+	<div id="Hey_there_d">
+		<span>Hey there!</span>
+	</div>
+	<div id="Wanna_talk_d">
+		<span>Wanna talk?</span>
+	</div>
+	<svg class="Rectangle_21_d">
+		<rect id="Rectangle_21_d" rx="0" ry="0" x="0" y="0" width="1920" height="100">
+		</rect>
+	</svg>
+	<img onclick="application.goToTargetView(event)" id="White_Down_ea" src="White_Down_ea.png" srcset="White_Down_ea.png 1x">
+	<img onclick="application.goToTargetView(event)" id="White_Down_eb" src="White_Down_eb.png" srcset="White_Down_eb.png 1x">
+	<img onclick="application.goToTargetView(event)" id="White_Down_ec" src="White_Down_ec.png" srcset="White_Down_ec.png 1x">
+	<img onclick="application.goToTargetView(event)" id="White_Down_ed" src="White_Down_ed.png" srcset="White_Down_ed.png 1x">
+	<img id="White_Up_ee" src="White_Up_ee.png" srcset="White_Up_ee.png 1x">
+	<div id="Batho_Koshero_ef">
+		<span>Batho Koshero</span>
+	</div>
+	<div id="About_eg">
+		<span>About</span>
+	</div>
+	<div id="Projects_eh">
+		<span>Projects</span>
+	</div>
+	<div id="website_under_construction_ei">
 		<span>**website under construction</span>
 	</div>
 </div>
